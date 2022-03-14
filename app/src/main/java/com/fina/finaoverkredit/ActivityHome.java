@@ -18,4 +18,9 @@ public class ActivityHome extends AppCompatActivity {
         Intent intent   = new Intent(ActivityHome.this, ActivityFeatures.class);
         startActivity(intent);
     }
+
+    public void toArticle(View view) {
+        Intent intent   = new Intent(ActivityHome.this, ActivityArticle.class);
+        startActivity(intent);
+    }
 }
